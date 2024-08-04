@@ -388,8 +388,3 @@ class StrategiesAndUnits:
 
         end_game_buildings = self._cities(end_game_stack_ratios, number_of_land_cities, number_of_ocean_cities)
         self._resource_ratios(end_game_stack_ratios, 'End Game', end_game_buildings, resource_multiplier)
-
-
-
-w = StrategiesAndUnits()
-w.death_march(number_of_cities=6, number_of_land_cities=3, number_of_ocean_cities=3, resource_multiplier=)
