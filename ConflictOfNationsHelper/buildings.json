@@ -1,0 +1,374 @@
+{
+  "arms_industry": {
+    "lvl1": {
+      "costs": {
+        "supplies": 4000,
+        "components": 350,
+        "rares": 225,
+        "fuel": 350,
+        "electronics": 250,
+        "money": 1250
+      },
+      "time": 32400,
+      "resource_production": 0.1
+    },
+    "lvl2": {
+      "costs": {
+        "supplies": 450,
+        "components": 450,
+        "rares": 275,
+        "fuel": 400,
+        "electronics": 300,
+        "money": 2000
+      },
+      "time": 86400,
+      "resource_production": 0.2
+    },
+    "lvl3": {
+      "costs": {
+        "supplies": 500,
+        "components": 500,
+        "rares": 400,
+        "fuel": 425,
+        "electronics": 325,
+        "money": 3000
+      },
+      "time": 108000,
+      "resource_production": 0.3
+    },
+    "lvl4": {
+      "costs": {
+        "supplies": 525,
+        "components": 525,
+        "rares": 325,
+        "fuel": 450,
+        "electronics": 350,
+        "money": 4000
+      },
+      "time": 129600,
+      "resource_production": 0.4
+    },
+    "lvl5": {
+      "costs": {
+        "supplies": 550,
+        "components": 550,
+        "rares": 450,
+        "fuel": 4750,
+        "electronics": 3750,
+        "money": 5000
+      },
+      "time": 172800,
+      "resource_production": 0.5
+    }
+  },
+  "recruiting_office": {
+    "lvl1": {
+      "costs": {
+        "supplies": 250,
+        "components": 250,
+        "rares": 0,
+        "fuel": 250,
+        "electronics": 250,
+        "money": 1350
+      },
+      "time": 1800,
+      "resource_production": 0.0
+    },
+    "lvl2": {
+      "costs": {
+        "supplies": 750,
+        "components": 500,
+        "rares": 0,
+        "fuel": 500,
+        "electronics": 500,
+        "money": 20000
+      },
+      "time": 93600,
+      "resource_production": 0.0
+    },
+    "lvl3": {
+      "costs": {
+        "supplies": 1500,
+        "components": 750,
+        "rares": 0,
+        "fuel": 750,
+        "electronics": 750,
+        "money": 3375
+      },
+      "time": 100800,
+      "resource_production": 0.0
+    },
+    "lvl4": {
+      "costs": {
+        "supplies": 2000,
+        "components": 1000,
+        "rares": 0,
+        "fuel": 1000,
+        "electronics": 1000,
+        "money": 5000
+      },
+      "time": 108000,
+      "resource_production": 0.0
+    },
+    "lvl5": {
+      "costs": {
+        "supplies": 2500,
+        "components": 1500,
+        "rares": 0,
+        "fuel": 1250,
+        "electronics": 1250,
+        "money": 6750
+      },
+      "time": 115200,
+      "resource_production": 0.0
+    }
+  },
+  "secret_weapons_lab": {
+    "lvl1": {
+      "costs": {
+        "supplies": 750,
+        "components": 400,
+        "rares": 500,
+        "fuel": 250,
+        "electronics": 750,
+        "money": 3500
+      },
+      "time": 90000,
+      "resource_production": 0.0
+    },
+    "lvl2": {
+      "costs": {
+        "supplies": 1000,
+        "components": 890,
+        "rares": 1000,
+        "fuel": 500,
+        "electronics": 1000,
+        "money": 5500
+      },
+      "time": 93600,
+      "resource_production": 0.0
+    },
+    "lvl3": {
+      "costs": {
+        "supplies": 1500,
+        "components": 1200,
+        "rares": 1500,
+        "fuel": 750,
+        "electronics": 1500,
+        "money": 7500
+      },
+      "time": 10800,
+      "resource_production": 0.0
+    },
+    "lvl4": {
+      "costs": {
+        "supplies": 0,
+        "components": 0,
+        "rares": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "money": 0
+      },
+      "time": 0,
+      "resource_production": 0.0
+    },
+    "lvl5": {
+      "costs": {
+        "supplies": 3500,
+        "components": 2000,
+        "rares": 2500,
+        "fuel": 1250,
+        "electronics": 2500,
+        "money": 12500
+      },
+      "time": 129600,
+      "resource_production": 0.0
+    }
+  },
+  "army_base": {
+    "lvl1": {
+      "costs": {
+        "supplies": 250,
+        "components": 250,
+        "rares": 0,
+        "fuel": 500,
+        "electronics": 250,
+        "money": 2000
+      },
+      "time": 90,
+      "resource_production": 0.0
+    },
+    "lvl2": {
+      "costs": {
+        "supplies": 750,
+        "components": 500,
+        "rares": 0,
+        "fuel": 1000,
+        "electronics": 375,
+        "money": 3500
+      },
+      "time": 100800,
+      "resource_production": 0.0
+    },
+    "lvl3": {
+      "costs": {
+        "supplies": 1250,
+        "components": 750,
+        "rares": 0,
+        "fuel": 1500,
+        "electronics": 500,
+        "money": 5500
+      },
+      "time": 115200,
+      "resource_production": 0.0
+    },
+    "lvl4": {
+      "costs": {
+        "supplies": 2000,
+        "components": 1000,
+        "rares": 250,
+        "fuel": 2000,
+        "electronics": 750,
+        "money": 7500
+      },
+      "time": 122400,
+      "resource_production": 0.0
+    },
+    "lvl5": {
+      "costs": {
+        "supplies": 2500,
+        "components": 1500,
+        "rares": 500,
+        "fuel": 2500,
+        "electronics": 1000,
+        "money": 9500
+      },
+      "time": 129600,
+      "resource_production": 0.0
+    }
+  },
+  "air_base": {
+    "lvl1": {
+      "costs": {
+        "supplies": 750,
+        "components": 1000,
+        "rares": 0,
+        "fuel": 1000,
+        "electronics": 5000,
+        "money": 2750
+      },
+      "time": 86400,
+      "resource_production": 0.05
+    },
+    "lvl2": {
+      "costs": {
+        "supplies": 1000,
+        "components": 1250,
+        "rares": 0,
+        "fuel": 1500,
+        "electronics": 750,
+        "money": 4750
+      },
+      "time": 93600,
+      "resource_production": 0.1
+    },
+    "lvl3": {
+      "costs": {
+        "supplies": 1250,
+        "components": 1500,
+        "rares": 0,
+        "fuel": 2000,
+        "electronics": 1000,
+        "money": 6750
+      },
+      "time": 100800,
+      "resource_production": 0.15
+    },
+    "lvl4": {
+      "costs": {
+        "supplies": 1500,
+        "components": 2000,
+        "rares": 500,
+        "fuel": 2500,
+        "electronics": 1250,
+        "money": 8750
+      },
+      "time": 108000,
+      "resource_production": 0.2
+    },
+    "lvl5": {
+      "costs": {
+        "supplies": 1750,
+        "components": 2500,
+        "rares": 750,
+        "fuel": 3000,
+        "electronics": 1500,
+        "money": 11000
+      },
+      "time": 115200,
+      "resource_production": 0.25
+    }
+  },
+  "naval_base": {
+    "lvl1": {
+      "costs": {
+        "supplies": 0,
+        "components": 0,
+        "rares": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "money": 0
+      },
+      "time": 0,
+      "resource_production": 0.0
+    },
+    "lvl2": {
+      "costs": {
+        "supplies": 500,
+        "components": 750,
+        "rares": 0,
+        "fuel": 750,
+        "electronics": 500,
+        "money": 2000
+      },
+      "time": 32400,
+      "resource_production": 0.05
+    },
+    "lvl3": {
+      "costs": {
+        "supplies": 750,
+        "components": 1000,
+        "rares": 0,
+        "fuel": 1250,
+        "electronics": 750,
+        "money": 3500
+      },
+      "time": 108000,
+      "resource_production": 0.1
+    },
+    "lvl4": {
+      "costs": {
+        "supplies": 1000,
+        "components": 1500,
+        "rares": 0,
+        "fuel": 1750,
+        "electronics": 1000,
+        "money": 5500
+      },
+      "time": 115200,
+      "resource_production": 0.15
+    },
+    "lvl5": {
+      "costs": {
+        "supplies": 1500,
+        "components": 2000,
+        "rares": 350,
+        "fuel": 2250,
+        "electronics": 1250,
+        "money": 7500
+      },
+      "time": 122400,
+      "resource_production": 0.0
+    }
+  }
+}

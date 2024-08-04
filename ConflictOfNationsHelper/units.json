@@ -1,0 +1,1545 @@
+{
+  "motorized_infantry" : {
+    "lvl4": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "production_time": 0,
+      "research_time": 0,
+      "research_cost": {
+        "supplies": 1400,
+        "rares": 1725,
+        "money": 1950
+      },
+      "research_req": {"motorized_infantry": "lvl3"},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "national_guard" : {
+    "name": "national_guard",
+    "lvl3": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 1,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 400,
+        "components": 250,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 550,
+        "money": 750
+      },
+      "upkeep": {
+        "supplies": 40,
+        "components": 0,
+        "fuel": 25,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 25,
+        "money": 55
+      },
+      "production_time": 32400,
+      "research_time": 61200,
+      "research_cost": {
+        "supplies": 1290,
+        "rares": 1140,
+        "money": 1500
+      },
+      "research_req": {"national_guard": 2},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "mercenary" : {
+    "name": "mercenary",
+    "lvl1": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 1
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 1500,
+        "money": 4000
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 200,
+        "money": 500
+      },
+      "production_time": 21600,
+      "research_time": 36000,
+      "research_cost": {
+        "supplies": 1000,
+        "rares": 800,
+        "money": 5000
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "towed_artillery" : {
+    "lvlx": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "production_time": 0,
+      "research_time": 0,
+      "research_cost": {
+        "supplies": 0,
+        "rares": 0,
+        "money": 0
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "multiple_rocket_launcher": {
+    "name": "multiple_rocket_launcher",
+    "lvl5": {
+      "building_req": {
+        "army_base": 4,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 1,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 2250,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 1200,
+        "rares": 0,
+        "manpower": 800,
+        "money": 3000
+      },
+      "upkeep": {
+        "supplies": 120,
+        "components": 0,
+        "fuel": 80,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 70,
+        "money": 170
+      },
+      "production_time": 108000,
+      "research_time": 147600,
+      "research_cost": {
+        "supplies": 2450,
+        "rares": 2800,
+        "money": 4200
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "mobile_anti_air_vehicle": {
+    "lvlx": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "production_time": 0,
+      "research_time": 0,
+      "research_cost": {
+        "supplies": 0,
+        "rares": 0,
+        "money": 0
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "mobile_sam_launcher": {
+    "name": "mobile_sam_launcher",
+    "lvl4": {
+      "building_req": {
+        "army_base": 3,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 1,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 1350,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 600,
+        "rares": 0,
+        "manpower": 500,
+        "money": 1750
+      },
+      "upkeep": {
+        "supplies": 75,
+        "components": 0,
+        "fuel": 45,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 45,
+        "money": 110
+      },
+      "production_time": 72000,
+      "research_time": 129600,
+      "research_cost": {
+        "supplies": 1950,
+        "rares": 2310,
+        "money": 3250
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "theater_defense_system": {
+    "name": "theater_defense_system",
+    "lvl7": {
+      "building_req": {
+        "army_base": 5,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 1,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 2000,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 1500,
+        "rares": 0,
+        "manpower": 900,
+        "money": 3500
+      },
+      "upkeep": {
+        "supplies": 110,
+        "components": 0,
+        "fuel": 70,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 65,
+        "money": 225
+      },
+      "production_time": 82800,
+      "research_time": 165600,
+      "research_cost": {
+        "supplies": 2775,
+        "rares": 3000,
+        "money": 4500
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "mobile_radar": {
+    "name": "mobile_radar",
+    "lvl3": {
+      "building_req": {
+        "army_base": 2,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 1,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 650,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 575,
+        "rares": 0,
+        "manpower": 450,
+        "money": 1250
+      },
+      "upkeep": {
+        "supplies": 35,
+        "components": 0,
+        "fuel": 25,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 25,
+        "money": 55
+      },
+      "production_time": 75600,
+      "research_time": 108000,
+      "research_cost": {
+        "supplies": 900,
+        "rares": 930,
+        "money": 2220
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "combat_recon_vehicle": {
+    "name": "combat_recon_vehicle",
+    "lvl3": {
+      "building_req": {
+        "army_base": 1,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 950,
+        "components": 850,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 400,
+        "money": 1000
+      },
+      "upkeep": {
+        "supplies": 60,
+        "components": 0,
+        "fuel": 30,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 35,
+        "money": 85
+      },
+      "production_time": 82800,
+      "research_time": 90000,
+      "research_cost": {
+        "supplies": 1500,
+        "rares": 1620,
+        "money": 1500
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "main_battle_tank": {
+    "name": "main_battle_tank",
+    "lvl1": {
+      "building_req": {
+        "army_base": 2,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 1,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 1800,
+        "fuel": 0,
+        "electronics": 800,
+        "rares": 0,
+        "manpower": 700,
+        "money": 1700
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 80,
+        "fuel": 35,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 35,
+        "money": 150
+      },
+      "production_time": 93600,
+      "research_time": 115200,
+      "research_cost": {
+        "supplies": 1800,
+        "rares": 2000,
+        "money": 2900
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "helicopter_gunship": {
+    "name": "helicopter_gunship",
+    "lvl1": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 1,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 1,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 850,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 700,
+        "rares": 0,
+        "manpower": 350,
+        "money": 2750
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 25,
+        "electronics": 25,
+        "rares": 0,
+        "manpower": 25,
+        "money": 90
+      },
+      "production_time": 79200,
+      "research_time": 90000,
+      "research_cost": {
+        "supplies": 1250,
+        "rares": 1450,
+        "money": 2750
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "attack_helicopter": {
+    "lvlx": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "production_time": 0,
+      "research_time": 0,
+      "research_cost": {
+        "supplies": 0,
+        "rares": 0,
+        "money": 0
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "air_superiority_fighter": {
+    "name": "air_superiority_fighter",
+    "lvl3": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 1,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 1,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 1000,
+        "fuel": 0,
+        "electronics": 950,
+        "rares": 0,
+        "manpower": 425,
+        "money": 3500
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 45,
+        "electronics": 45,
+        "rares": 0,
+        "manpower": 45,
+        "money": 110
+      },
+      "production_time": 90000,
+      "research_time": 93600,
+      "research_cost": {
+        "supplies": 2160,
+        "rares": 2280,
+        "money": 4800
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    },
+    "lvl4": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 1,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 1,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 1175,
+        "fuel": 0,
+        "electronics": 1100,
+        "rares": 0,
+        "manpower": 600,
+        "money": 4000
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 55,
+        "electronics": 50,
+        "rares": 0,
+        "manpower": 50,
+        "money": 150
+      },
+      "production_time": 97200,
+      "research_time": 111600,
+      "research_cost": {
+        "supplies": 2340,
+        "rares": 2470,
+        "money": 5200
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    },
+    "lvl7": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 1,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 1,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 1400,
+        "fuel": 0,
+        "electronics": 1250,
+        "rares": 0,
+        "manpower": 800,
+        "money": 3500
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 80,
+        "electronics": 65,
+        "rares": 0,
+        "manpower": 70,
+        "money": 190
+      },
+      "production_time": 936000,
+      "research_time": 151200,
+      "research_cost": {
+        "supplies": 2700,
+        "rares": 2850,
+        "money": 6000
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "strike_fighter": {
+    "lvlx": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "production_time": 0,
+      "research_time": 0,
+      "research_cost": {
+        "supplies": 0,
+        "rares": 0,
+        "money": 0
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "uav": {
+    "lvlx": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "production_time": 0,
+      "research_time": 0,
+      "research_cost": {
+        "supplies": 0,
+        "rares": 0,
+        "money": 0
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "naval_patrol_aircraft": {
+    "lvlx": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "production_time": 0,
+      "research_time": 0,
+      "research_cost": {
+        "supplies": 0,
+        "rares": 0,
+        "money": 0
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "awacs": {
+    "lvlx": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "production_time": 0,
+      "research_time": 0,
+      "research_cost": {
+        "supplies": 0,
+        "rares": 0,
+        "money": 0
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "heavy_bomber": {
+    "lvlx": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "production_time": 0,
+      "research_time": 0,
+      "research_cost": {
+        "supplies": 0,
+        "rares": 0,
+        "money": 0
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "stealth_bomber": {
+    "lvlx": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "production_time": 0,
+      "research_time": 0,
+      "research_cost": {
+        "supplies": 0,
+        "rares": 0,
+        "money": 0
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "frigate": {
+    "name": "frigate",
+    "lvl3": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 2,
+        "recruiting_office": 0,
+        "arms_industry": 1,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 2000,
+        "fuel": 0,
+        "electronics": 1100,
+        "rares": 0,
+        "manpower": 570,
+        "money": 1750
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 110,
+        "fuel": 55,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 55,
+        "money": 130
+      },
+      "production_time": 93600,
+      "research_time": 115200,
+      "research_cost": {
+        "supplies": 1680,
+        "rares": 2100,
+        "money": 3600
+      },
+      "research_req": {"frigate": "lvl2"},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    },
+    "lvl7": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 2,
+        "recruiting_office": 0,
+        "arms_industry": 1,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 2500,
+        "fuel": 0,
+        "electronics": 1500,
+        "rares": 0,
+        "manpower": 1250,
+        "money": 3250
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 150,
+        "fuel": 85,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 75,
+        "money": 200
+      },
+      "production_time": 115200,
+      "research_time": 172800,
+      "research_cost": {
+        "supplies": 2240,
+        "rares": 2800,
+        "money": 4800
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "cruiser": {
+    "lvlx": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "production_time": 0,
+      "research_time": 0,
+      "research_cost": {
+        "supplies": 0,
+        "rares": 0,
+        "money": 0
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "helicopter_carrier": {
+    "lvlx": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "production_time": 0,
+      "research_time": 0,
+      "research_cost": {
+        "supplies": 0,
+        "rares": 0,
+        "money": 0
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "aircraft_carrier": {
+    "lvlx": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "production_time": 0,
+      "research_time": 0,
+      "research_cost": {
+        "supplies": 0,
+        "rares": 0,
+        "money": 0
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "rotary_wing_officer": {
+    "lvlx": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "production_time": 0,
+      "research_time": 0,
+      "research_cost": {
+        "supplies": 0,
+        "rares": 0,
+        "money": 0
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "naval_officer": {
+    "lvlx": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "production_time": 0,
+      "research_time": 0,
+      "research_cost": {
+        "supplies": 0,
+        "rares": 0,
+        "money": 0
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "elite_attack_helicopter": {
+    "lvlx": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "production_time": 0,
+      "research_time": 0,
+      "research_cost": {
+        "supplies": 0,
+        "rares": 0,
+        "money": 0
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "elite_railgun": {
+    "name": "elite_railgun",
+    "lvl3": {
+      "building_req": {
+        "army_base": 5,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 1,
+        "secret_weapons_lab": 2,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 2200,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 1950,
+        "rares": 0,
+        "manpower": 800,
+        "money": 5250
+      },
+      "upkeep": {
+        "supplies": 130,
+        "components": 0,
+        "fuel": 90,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 75,
+        "money": 200
+      },
+      "production_time": 108000,
+      "research_time": 147600,
+      "research_cost": {
+        "supplies": 3000,
+        "rares": 2500,
+        "money": 5600
+      },
+      "research_req": {"elite_railgun": "lvl2"},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 10
+    }
+  },
+  "elite_attack_aircraft": {
+    "lvlx": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 0,
+        "fuel": 0,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 0,
+        "money": 0
+      },
+      "production_time": 0,
+      "research_time": 0,
+      "research_cost": {
+        "supplies": 0,
+        "rares": 0,
+        "money": 0
+      },
+      "research_req": {},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 9999
+    }
+  },
+  "elite_frigate": {
+    "name": "elite_frigate",
+    "lvl1": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 2,
+        "recruiting_office": 0,
+        "arms_industry": 1,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 2100,
+        "fuel": 0,
+        "electronics": 1150,
+        "rares": 0,
+        "manpower": 800,
+        "money": 1900
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 90,
+        "fuel": 50,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 50,
+        "money": 120
+      },
+      "production_time": 8640,
+      "research_time": 100800,
+      "research_cost": {
+        "supplies": 1250,
+        "rares": 1800,
+        "money": 4000
+      },
+      "research_req": {"frigate":  "lvl1"},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 3
+    },
+    "lvl2": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 4,
+        "recruiting_office": 0,
+        "arms_industry": 2,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 2350,
+        "fuel": 0,
+        "electronics": 1350,
+        "rares": 0,
+        "manpower": 1050,
+        "money": 2900
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 110,
+        "fuel": 80,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 60,
+        "money": 160
+      },
+      "production_time": 100800,
+      "research_time": 13200,
+      "research_cost": {
+        "supplies": 1850,
+        "rares": 2400,
+        "money": 5500
+      },
+      "research_req": {"elite_frigate":  "lvl1"},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 6
+    },
+    "lvl3": {
+      "building_req": {
+        "army_base": 0,
+        "air_base": 0,
+        "naval_base": 0,
+        "recruiting_office": 0,
+        "arms_industry": 0,
+        "secret_weapons_lab": 0,
+        "mercenary_outpost": 0
+      },
+      "cost": {
+        "supplies": 0,
+        "components": 2750,
+        "fuel": 0,
+        "electronics": 1900,
+        "rares": 0,
+        "manpower": 1400,
+        "money": 3900
+      },
+      "upkeep": {
+        "supplies": 0,
+        "components": 135,
+        "fuel": 100,
+        "electronics": 0,
+        "rares": 0,
+        "manpower": 70,
+        "money": 200
+      },
+      "production_time": 111600,
+      "research_time": 162000,
+      "research_cost": {
+        "supplies": 2450,
+        "rares": 2900,
+        "money": 6500
+      },
+      "research_req": {"elite_frigate":  "lvl2"},
+      "doctrine_difference": {
+        "western": {},
+        "eastern": {}
+      },
+      "max_amt": 10
+    }
+  }
+}
